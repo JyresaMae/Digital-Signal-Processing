@@ -64,3 +64,49 @@ and odd harmonics. The harmonics of the square and sawtooth waves drop off in pr
 > Hint: There are two ways you could approach this: you could construct the signal you
 want by adding up sinusoids, or you could start with a signal that is similar to what you want
 and modify it.
+
+## Non-periodic Signals
+#### Exercise 3.1:
+Run and listen to the examples in our Chapter 3 Jupyter Notebook on Deepnote which
+will be soon discussed and uploaded to our MOLE classroom.
+In the leakage example, try replacing the Hamming window with one of the other
+windows provided by NumPy, and see what effect they have on leakage. See
+http://docs.scipy.org/doc/numpy/reference/routines.window.html
+
+#### Exercise 3.2:
+Write a class called SawtoothChirp that extends Chirp and overrides evaluate to
+generate a sawtooth waveform with frequency that increases (or decreases) linearly.
+Hint: combine the evaluate functions from Chirp and SawtoothSignal.
+Draw a sketch of what you think the spectrogram of this signal looks like, and then plot
+it. The effect of aliasing should be visually apparent, and if you listen carefully, you can hear
+it.
+
+#### Exercise 3.3:
+Make a sawtooth chirp that sweeps from 2500 to 3000 Hz, then use it to make a wave
+with duration 1 s and framerate 20 kHz. Draw a sketch of what you think the spectrum will
+look like. Then plot the spectrum and see if you got it right.
+
+#### Exercise 3.4:
+In musical terminology, a “glissando" is a note that slides from one pitch to another, so
+it is similar to a chirp.
+Find or make a recording of a glissando and plot a spectrogram of the first few seconds.
+One suggestion: George Gershwin’s Rhapsody in Blue starts with a famous clarinet glissando,
+which you can download from https://archive.org/details/rhapblue11924.
+
+#### Exercise 3.5:
+A trombone player can play a glissando by extending the trombone slide while blowing
+continuously. As the slide extends, the total length of the tube gets longer, and the resulting
+pitch is inversely proportional to length.
+Assuming that the player moves the slide at a constant speed, how does frequency vary
+with time?
+Write a class called TromboneGliss that extends Chirp and provides evaluate. Make
+a wave that simulates a trombone glissando from C3 up to F3 and back down to C3. C3 is 262
+Hz; F3 is 349 Hz.3.9.
+Plot a spectrogram of the resulting wave. Is a trombone glissando more like a linear or
+exponential chirp?
+
+#### Exercise 3.6:
+Make or find a recording of a series of vowel sounds and look at the spectrogram. Can
+you identify different vowels?
+
+##### <center> **© AMBOANG & GIGATARAS (2023) | BCA183 LABORATORY ACTIVITIES** </center>
