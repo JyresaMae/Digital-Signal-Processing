@@ -109,4 +109,4 @@ exponential chirp?
 Make or find a recording of a series of vowel sounds and look at the spectrogram. Can
 you identify different vowels?
 
-##### <center> **© AMBOANG & GIGATARAS (2023) | BCA183 LABORATORY ACTIVITIES** </center>
+##### <p align="center"> **© AMBOANG & GIGATARAS (2023) | BCA183 LABORATORY ACTIVITIES** </p>
