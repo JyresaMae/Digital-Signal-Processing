@@ -1,4 +1,4 @@
-# Digital-Signal-Processing
+# **Digital-Signal-Processing**
 
 ## Sounds and Signals
 #### Exercise 1.1:
@@ -76,7 +76,8 @@ http://docs.scipy.org/doc/numpy/reference/routines.window.html
 #### Exercise 3.2:
 Write a class called SawtoothChirp that extends Chirp and overrides evaluate to
 generate a sawtooth waveform with frequency that increases (or decreases) linearly.
-Hint: combine the evaluate functions from Chirp and SawtoothSignal.
+
+> Hint: combine the evaluate functions from Chirp and SawtoothSignal.
 Draw a sketch of what you think the spectrogram of this signal looks like, and then plot
 it. The effect of aliasing should be visually apparent, and if you listen carefully, you can hear
 it.
@@ -90,7 +91,8 @@ look like. Then plot the spectrum and see if you got it right.
 In musical terminology, a “glissando" is a note that slides from one pitch to another, so
 it is similar to a chirp.
 Find or make a recording of a glissando and plot a spectrogram of the first few seconds.
-One suggestion: George Gershwin’s Rhapsody in Blue starts with a famous clarinet glissando,
+
+> One suggestion: George Gershwin’s Rhapsody in Blue starts with a famous clarinet glissando,
 which you can download from https://archive.org/details/rhapblue11924.
 
 #### Exercise 3.5:
