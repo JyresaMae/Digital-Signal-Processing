@@ -19,6 +19,10 @@ Write a function called stretch that takes a Wave and a stretch factor and speed
 slows down the wave by modifying ts and framerate.
 Hint: It should only take two lines of code.
 
+[Exercise # 1 Solutions.ipynb](https://colab.research.google.com/drive/16C9wcAW5XXfVDzhQY3qb6hGYDbDs8bh3?usp=sharing)
+
+[Exercise #1 Filters Solutions part.ipynb](https://colab.research.google.com/drive/1PZZAkeyHmkd2Cdou8WwXQkoljD_cX78o?usp=sharing)
+
 ## Harmonics
 
 #### Exercise 2.1:
@@ -65,6 +69,8 @@ and odd harmonics. The harmonics of the square and sawtooth waves drop off in pr
 want by adding up sinusoids, or you could start with a signal that is similar to what you want
 and modify it.
 
+[Exercise # 2 Solutions.ipynb](https://colab.research.google.com/drive/1_-8vdsR3aoNbHaswGO8dVklJsOZeQkhz?usp=sharing)
+
 ## Non-periodic Signals
 #### Exercise 3.1:
 Run and listen to the examples in our Chapter 3 Jupyter Notebook on Deepnote which
@@ -110,5 +116,8 @@ exponential chirp?
 #### Exercise 3.6:
 Make or find a recording of a series of vowel sounds and look at the spectrogram. Can
 you identify different vowels?
+
+[Exercise # 3 Solutions.ipynb](https://colab.research.google.com/drive/1-pWMEZW30l5ZAeMWlhRVyuiETpPdC-ZB?usp=sharing)
+
 
 **<p align="center"> © AMBOANG (2023) | DIGITAL SIGNAL PROCESSING </p>**
